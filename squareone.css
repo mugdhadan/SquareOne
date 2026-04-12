@@ -105,14 +105,24 @@ figure{
 }
 
 
-.logo-link {
-  position: fixed !important;
-  top: 10px;
-  left: 150px;
-  z-index: 1000
+.site-logo{
+  display:inline-flex;
+  align-items:center;
+  gap:10px;
+  text-decoration:none;
+  padding:2px 2px;
+  border-radius:14px;
+  font-weight:700;
+  color:#fff;
+ 
+  top:10px;
+ left:150px;
 }
 
-.logo-link img {
-  width: 60px;
-  height: auto;
+.site-logo img{
+ width:60px;
+
+}
+.site-logo-text{
+  font-size:16px;
 }
